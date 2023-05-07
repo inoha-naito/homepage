@@ -1,19 +1,12 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "いのはのホームページ";
 ---
 
-<html lang="ja">
-<head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
-	<meta name="generator" content={Astro.generator} />
-	<title>{pageTitle}</title>
-</head>
-<body>
-<a href="/">ホーム</a>
-<a href="/profile/">プロフィール</a>
-<a href="/memo/">技術メモ</a>
-<h1>{pageTitle}へようこそ</h1>
-<p>工事中m(_ _)m</p>
-</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <a href="/">ホーム</a>
+  <a href="/profile/">プロフィール</a>
+  <a href="/memo/">技術メモ</a>
+  <h1>{pageTitle}へようこそ</h1>
+  <p>工事中m(_ _)m</p>
+</BaseLayout>

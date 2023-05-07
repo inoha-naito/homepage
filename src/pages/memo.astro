@@ -1,21 +1,14 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "技術メモ";
 ---
 
-<html lang="ja">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <meta name="generator" content={Astro.generator} />
-  <title>{pageTitle}</title>
-</head>
-<body>
-<a href="/">ホーム</a>
-<a href="/profile/">プロフィール</a>
-<a href="/memo/">技術メモ</a>
-<h1>{pageTitle}</h1>
-<ul>
-  <li><a href="/posts/minimal-html5/">【HTML】HTML5の最小構成</a></li>
-</ul>
-</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <a href="/">ホーム</a>
+  <a href="/profile/">プロフィール</a>
+  <a href="/memo/">技術メモ</a>
+  <h1>{pageTitle}</h1>
+  <ul>
+    <li><a href="/posts/minimal-html5/">【HTML】HTML5の最小構成</a></li>
+  </ul>
+</BaseLayout>
