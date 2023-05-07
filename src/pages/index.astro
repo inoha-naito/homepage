@@ -1,15 +1,19 @@
 ---
+const pageTitle = "いのはのホームページ";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang="ja">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<meta name="generator" content={Astro.generator} />
+	<title>{pageTitle}</title>
+</head>
+<body>
+<a href="/">ホーム</a>
+<a href="/profile/">プロフィール</a>
+<a href="/memo/">技術メモ</a>
+<h1>{pageTitle}へようこそ</h1>
+<p>工事中m(_ _)m</p>
+</body>
 </html>
