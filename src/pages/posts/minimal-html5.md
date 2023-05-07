@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: '【HTML】HTML5の最小構成'
 pubDate: 2023-05-07
 description: '(実用上での)HTML5文書の最小構成です。CSSやJavaScriptの使用は前提としていません。'
