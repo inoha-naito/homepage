@@ -1,6 +1,23 @@
 ---
 ---
 
-<a href="/">ホーム</a>
-<a href="/profile/">プロフィール</a>
-<a href="/memo/">技術メモ</a>
+<style>
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li:not(:last-of-type) {
+    padding-right: 5px;
+  }
+</style>
+
+<nav>
+  <ul>
+    <li><a href="/">ホーム</a></li>
+    <li><a href="/profile/">プロフィール</a></li>
+    <li><a href="/memo/">技術メモ</a></li>
+  </ul>
+</nav>
