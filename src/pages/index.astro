@@ -1,9 +1,22 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Marquee from "../components/Marquee.astro";
 const pageTitle = "いのはのホームページ";
 ---
 
+<style>
+  .dotted-border {
+    width: 640px;
+    padding: 5px 0;
+    border: dotted 4px;
+    color: #0088ff;
+  }
+</style>
+
 <BaseLayout pageTitle={pageTitle}>
   <h1>{pageTitle}へようこそ</h1>
+  <div class="dotted-border">
+    <Marquee message="今年度も頑張りましょう!" duration="15s" />
+  </div>
   <p>工事中m(_ _)m</p>
 </BaseLayout>
