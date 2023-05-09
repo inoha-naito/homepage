@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: '【Astro】Marqueeコンポーネントを実装する'
 pubDate: 2023-05-09
 description: 'AstroのMarkdownページでは、リンクをクリックすると(外部リンクであるかに関わらず)同じタブで開いてしまいます。そこで、外部リンクであるかを判定し、target属性に_blankを設定することで、新しいタブで開くようにします。'

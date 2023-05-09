@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: '【Node.js】rtxを用いたNode.jsの環境構築'
 pubDate: 2023-05-09
 description: 'バージョン管理ツール「rtx」を用いて、Node.jsの実行環境を構築します。「nodeコマンドを実行できる」が本記事のゴールです。'

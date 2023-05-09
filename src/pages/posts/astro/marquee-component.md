@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../../layouts/MarkdownPostLayout.astro
 title: '【Astro】Marqueeコンポーネントを実装する'
 pubDate: 2023-05-08
 description: 'Astroにおいて、Marqueeコンポーネントを実装します。'
