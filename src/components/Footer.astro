@@ -2,6 +2,25 @@
 import Copyright from "./Copyright.astro";
 ---
 
+<style>
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li:not(:last-of-type) {
+    padding-right: 5px;
+  }
+</style>
+
 <footer>
+  <nav>
+    <ul>
+      <li><a href="./disclaimer">免責事項</a></li>
+      <li><a href="./privacy-policy">プライバシーポリシー</a></li>
+    </ul>
+  </nav>
   <Copyright publishedYear="2023" owner="miraiportal"/>
 </footer>
