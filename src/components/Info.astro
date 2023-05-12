@@ -1,0 +1,14 @@
+---
+const { rows, cols, text } = Astro.props;
+---
+
+<style>
+  textarea{
+    border-color: black;
+    background: white;
+    color: black;
+    resize: none;
+  }
+</style>
+
+<textarea rows={rows} cols={cols} disabled>{text}</textarea>

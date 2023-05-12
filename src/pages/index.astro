@@ -1,7 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Marquee from "../components/Marquee.astro";
+import Info from "../components/Info.astro";
 const pageTitle = "いのはのホームページ";
+const text = fs.readFileSync('./src/data/info.txt', 'utf-8');
 ---
 
 <style>
@@ -18,5 +20,7 @@ const pageTitle = "いのはのホームページ";
   <div class="dotted-border">
     <Marquee message="今年度も頑張りましょう!" duration="15s" />
   </div>
+  <h2>お知らせ</h2>
+  <Info rows="5" cols="80" text={text} />
   <p>工事中m(_ _)m</p>
 </BaseLayout>
