@@ -23,8 +23,9 @@ def fizzbuzz(num: int) -> str:
     return result
 
 
-for i in range(1, 16):
-    print(fizzbuzz(i))
+if __name__ == '__main__':
+    for i in range(1, 101):
+        print(fizzbuzz(i))
 ```
 
 test_fizzbuzz.py
